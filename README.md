@@ -126,7 +126,5 @@ Metodologia-Vulnerabilidades/
 ├── ejemplos/
 │   ├── CVE-2017-5638/
 │   └── binario-vulnerable/
-├── capturas/
-├── fuzzing/
-├── exploit/
-└── conclusiones/
+        └──exploit/
+        └──fuzzing/
