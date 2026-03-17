@@ -116,8 +116,16 @@ Este enfoque permite analizar fallos no documentados y evaluar su explotabilidad
 
 # Conclusiones
 
-Este proyecto refleja una metodología sólida y aplicable a entornos reales.  
-La combinación de análisis estructurado, ejemplos prácticos y un enfoque claro hacia 0‑days demuestra una capacidad técnica alineada con el rol de analista de vulnerabilidades.
+La realización de este proyecto me ha permitido comprender de manera más profunda cómo funcionan las vulnerabilidades de memoria y, sobre todo, cómo un fallo aparentemente pequeño puede convertirse en un problema serio de seguridad. Aunque al principio el análisis del binario vulnerable me resultaba abstracto, poco a poco fui entendiendo la lógica interna del programa y la forma en la que un desbordamiento de pila puede alterar su comportamiento.
+
+El proceso de fuzzing me ayudó a ver el programa desde otra perspectiva: no solo como código, sino como un sistema que reacciona ante estímulos inesperados. Observar cómo fallaba ante entradas aleatorias me hizo entender mejor la fragilidad de ciertas funciones y la importancia de validar correctamente los datos.
+
+La parte de explotación fue, sin duda, la más desafiante. Requirió paciencia, precisión y una comprensión clara de cómo se organiza la memoria. Aunque en algunos momentos me sentí perdido, avanzar paso a paso me permitió ver cómo cada pieza encajaba: el offset, la dirección de retorno, el payload… Todo tenía sentido cuando lo veía funcionar.
+
+Más allá de lo técnico, este proyecto me ha enseñado algo importante: la seguridad no es un añadido, sino una responsabilidad. Un simple descuido en el código puede abrir la puerta a problemas graves, y entender cómo se explotan estas vulnerabilidades es la mejor forma de aprender a evitarlas.
+
+En definitiva, este trabajo me ha permitido reforzar mis conocimientos, mejorar mi capacidad de análisis y, sobre todo, desarrollar una visión más crítica y consciente sobre la importancia de escribir software seguro.
+
 
 # Estructura del repositorio
 Metodologia-Vulnerabilidades/
